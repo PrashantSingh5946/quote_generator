@@ -1,4 +1,4 @@
-import TOKEN from "script.js";
+import TOKEN from "./script.js";
 
 let loader = `<div class="center">
   <div class="wave"></div>
