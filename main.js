@@ -1,3 +1,5 @@
+import TOKEN from "script.js";
+
 let loader = `<div class="center">
   <div class="wave"></div>
   <div class="wave"></div>
@@ -33,7 +35,7 @@ async function generateQuote(topic) {
         {
           method: "POST",
           headers: {
-            Authorization: "Bearer " + token,
+            Authorization: "Bearer " + TOKEN,
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
