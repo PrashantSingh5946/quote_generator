@@ -33,8 +33,7 @@ async function generateQuote(topic) {
         {
           method: "POST",
           headers: {
-            Authorization:
-              "Bearer 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",
+            Authorization: "Bearer " + token,
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
